@@ -23,4 +23,34 @@
 - Badge readers 
 # Control Types
 ## Preventive
-- 
+- Block access to a resource
+- **Prevent access:**
+	- Firewall rules
+	- Follow security policy
+	- Guard shack checks all identification
+	- Enable door locks
+## Deterrent
+- Discourage an intrusion attempt
+- Doesn't directly prevent access
+- **Make an attacker think twice:**
+	- Application splash screens
+	- Threat of demotion
+	- Front reception desk
+	- Posted warning signs
+## Detective
+- Identify and log an intrusion attempt
+- May not prevent access
+- **Find the issue:**
+	- Collect and review system logs
+	- Review login reports
+	- Regularly patrol the property
+	- Enable motion detectors
+## Corrective
+- Apply a control after an event has been detected
+- Reverse the impact of an event
+- Continue operating with minimal downtime
+- **Correct the problem:**
+	- Restoring from backups can mitigate a ransomware infection
+	- Create policies for reporting security issues
+	- Contact law enforcement to manage criminal activity
+	- Use a fire extinguisher
