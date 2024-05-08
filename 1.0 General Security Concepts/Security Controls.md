@@ -6,17 +6,17 @@
 - Prevent security events, minimize the impact, and limit the damage
 	- Security controls
 # Control Categories
-## Technical Controls
+## Technical
 - Controls implemented using systems
 - Operating system controls
 - Firewalls, anti-virus 
-## Managerial Controls
+## Managerial
 - Administrative controls associated with security design and implementation
 - Security policies, standard operating procedures
-## Operational Controls
+## Operational
 - Controls implemented by people instead of systems
 - Security guards, awareness programs
-## Physical Controls
+## Physical
 - Limit physical access
 - Guard shack
 - Fences, lock
