@@ -54,3 +54,31 @@
 	- Create policies for reporting security issues
 	- Contact law enforcement to manage criminal activity
 	- Use a fire extinguisher
+## Compensating
+- Control using other means
+- Existing controls aren't sufficient
+- May be temporary
+- **Prevent the exploitation of a weakness:**
+	- Firewall blocks a specific application instead of patching the app
+	- Implement a separation of duties
+	- Require simultaneous guard duties
+	- Generator used after power outage
+## Directive
+- Direct a subject towards security compliance
+- A relatively weak security control
+- **Do this, please:**
+	- Store all sensitive files in a protected folder
+	- Create compliance policies and procedures
+	- Train users on proper security policy
+	- Post a sign for "Authorized Personnel Only"
+
+![](attachments/Pasted%20image%2020240508140112.png)
+
+## Managing Security Controls
+- **These are not inclusive lists**
+	- There are many categories of control
+	- Some organizations will combine types
+- **There are multiple security controls for each category and type**
+	- Some security controls may exist in multiple types or categories
+	- New security controls are created as systems and processes evolve
+	- Your organization may use very different controls
