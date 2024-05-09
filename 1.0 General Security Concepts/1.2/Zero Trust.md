@@ -43,6 +43,29 @@
 - Internal network, external network
 - VPN 1, VPN 5, VPN 11
 - Marketing, IT, Accounting, Human Resources
+![](attachments/Pasted%20image%2020240508230605.png)
 ### Using the zones may be enough by itself to deny access
 - For example, **Untrusted** or **Trusted** zone traffic
-- 
+### Some zones are implicitly trusted
+- For example, **Trusted** to **Internal** zone traffic
+# Policy Enforcement Point
+### Subjects and Systems
+- End users, applications, non-human entities
+### Policy Enforcement Point (PEP)
+- The gatekeeper
+### Allow, monitor, and terminate connections
+- Can consist of multiple components working together
+![](attachments/Pasted%20image%2020240508230924.png)
+# Applying Trust in the Planes
+### Policy Decision Point
+- There's a process for making an authentication decision
+### Policy Engine
+- Evaluates each access decision based on policy and other information sources
+- Grant, deny, or revoke
+### Policy Administrator
+- Communicates with the Policy Enforcement Point
+- Generates access tokens or credentials
+- Tells the PEP to allow or disallow access
+![](attachments/Pasted%20image%2020240508231215.png)
+# Zero Trust Across Planes
+![](attachments/Pasted%20image%2020240508231341.png)
