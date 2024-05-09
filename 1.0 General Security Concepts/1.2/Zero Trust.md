@@ -44,4 +44,5 @@
 - VPN 1, VPN 5, VPN 11
 - Marketing, IT, Accounting, Human Resources
 ### Using the zones may be enough by itself to deny access
-- For example
+- For example, **Untrusted** or **Trusted** zone traffic
+- 
