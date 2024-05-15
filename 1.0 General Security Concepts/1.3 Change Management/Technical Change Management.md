@@ -85,5 +85,5 @@
 - Windows OS patches
 - Application registry entities
 ### Not always straightforward
-- Some devices and operating systems provide version contorl features
+- Some devices and operating systems provide version control features
 - May require additional management software
