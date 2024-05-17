@@ -39,3 +39,13 @@
 ### Everyone can have the public key
 - Only Alice has the private key
 # Asymmetric Encryption
+ ![](attachments/Pasted%20image%2020240517123436.png)
+# Key Escrow
+### Someone else holds your decryption keys
+- Your private keys are in the hands of a 3rd-party
+- This may be within your own organization
+### This can be a legitimate business arrangement
+- A business might need access to employee information
+- Government agencies may need to decrypt partner data
+### Controversial?
+- Of course, but may still be required
