@@ -72,3 +72,42 @@
 ### Install the CA certificate/trusted chain on all devices
 - They'll now trust any certificates signed by your internal CA
 - Works exactly like a certificate you purchased
+# Wildcard Certificates
+### Subject Alternative Name (SAN)
+- Extension to an X.509 certificate
+- Lists additional identification information
+- Allows a certificate support many different domains
+### Wildcard Domain
+- Certificates are based on the name of the server
+- A wildcard domain will apply to all server names in a domain
+![](attachments/Pasted%20image%2020240522163244.png)
+# Key Revocation
+### Certificate Revocation List (CRL)
+- Maintained by the Certificate Authority (CA)
+- Can contain many revocations in a large file
+### Many different reasons
+- Changes all the time
+### April 2014 - CVE-2014-0160
+- Heartbleed
+- OpenSSL flaw put the private key of affected web servers at risk
+- OpenSSL was patched, every web server certificate was replaced
+- Older certificates were moved to the CRL
+![](attachments/Pasted%20image%2020240522163512.png)
+# OCSP Stapling
+### Online Certificate Status Protocol
+- Provides scalability for OCSP checks
+### The CA is responsible for responding to all client OCSP requests
+- This may not scale well
+### Instead, have the certificate holder  verify their own status
+- Status information is stored on the certificate holder's server
+### OCSP status is "stapled" into the SSL/TLS handshake
+- Digitally signed by the CA
+# Getting revocation details to the browser
+### OCSP (Online Certificate Status Protocol)
+- The browser can check certificate revocation
+### Messages usually sent to an OCSP responder via HTTP
+- Easy to support Internet links
+- More efficient than downloading a CRL
+### Not all browsers/apps support OCSP
+- Early Internet Explorer versions did not support OCSP
+- Some support OCSP, but don't bother checking
