@@ -100,4 +100,4 @@
 -  Refers to information technology (IT) systems deployed by departments other than the central IT department, to bypass limitations and restrictions that have been imposed by central information systems
 - While it can promote innovation and productivity, shadow IT introduces security risks and compliance concerns, especially when such systems are not aligned with corporate governance.
 # Threat Actors
-![](Pasted%20image%2020240530134444.png)
+![](514591cd591877bcf6aa712a0ae28bd9.png)

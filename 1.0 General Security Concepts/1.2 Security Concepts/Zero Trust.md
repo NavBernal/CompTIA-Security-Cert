@@ -20,7 +20,7 @@
 # Extending the Physical Architecture
 ### Separate into Functional Tasks
 - Incorporate into hardware or software
-![](Pasted%20image%2020240508225849.png)
+![](9de3254201a7eab0cf7d183b77b020e0.png)
 # Controlling Trust
 ### Adaptive Identity
 - Consider the source and the requested resources
@@ -43,7 +43,7 @@
 - Internal network, external network
 - VPN 1, VPN 5, VPN 11
 - Marketing, IT, Accounting, Human Resources
-![](Pasted%20image%2020240508230605.png)
+![](34ef789d69a378e167959b70678564bc.png)
 ### Using the zones may be enough by itself to deny access
 - For example, **Untrusted** or **Trusted** zone traffic
 ### Some zones are implicitly trusted
@@ -55,7 +55,7 @@
 - The gatekeeper
 ### Allow, monitor, and terminate connections
 - Can consist of multiple components working together
-![](Pasted%20image%2020240508230924.png)
+![](7568e5e0d00f4a69d17ecc12f5e449e4.png)
 # Applying Trust in the Planes
 ### Policy Decision Point
 - There's a process for making an authentication decision
@@ -66,6 +66,6 @@
 - Communicates with the Policy Enforcement Point
 - Generates access tokens or credentials
 - Tells the PEP to allow or disallow access
-![](Pasted%20image%2020240508231215.png)
+![](b1172bc6d019a4a88614429b267356ff.png)
 # Zero Trust Across Planes
-![](Pasted%20image%2020240508231341.png)
+![](4b8e81cc559ada9cbb207607b2c79954.png)

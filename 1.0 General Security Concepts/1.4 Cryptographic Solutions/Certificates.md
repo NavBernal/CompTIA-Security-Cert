@@ -20,7 +20,7 @@
 - Public key
 - Extensions
 - And more...
-![](Pasted%20image%2020240521160226.png)
+![](5bec32e56c61a2ce9fa9ce189d5efc82.png)
 # Root of Trust
 ### Everything associated with IT security requires trust
 - A foundational characteristic
@@ -54,7 +54,7 @@
 - Confirms DNS emails and website ownership
 ### CA digitally signs the cert
 - Returns to the applicant
-![](Pasted%20image%2020240521165317.png)
+![](0dca9ac0fdecfd8b944fd7ae4f2f7767.png)
 # Private Certificate Authorities
 ### You are your own CA
 - Build it in-house
@@ -80,7 +80,7 @@
 ### Wildcard Domain
 - Certificates are based on the name of the server
 - A wildcard domain will apply to all server names in a domain
-![](Pasted%20image%2020240522163244.png)
+![](105412d37c713aa7363fe3357443a0f4.png)
 # Key Revocation
 ### Certificate Revocation List (CRL)
 - Maintained by the Certificate Authority (CA)
@@ -92,7 +92,7 @@
 - OpenSSL flaw put the private key of affected web servers at risk
 - OpenSSL was patched, every web server certificate was replaced
 - Older certificates were moved to the CRL
-![](Pasted%20image%2020240522163512.png)
+![](a659c2da0198798d5655561b08c2a4eb.png)
 # OCSP Stapling
 ### Online Certificate Status Protocol
 - Provides scalability for OCSP checks

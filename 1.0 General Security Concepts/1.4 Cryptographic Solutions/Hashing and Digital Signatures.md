@@ -11,7 +11,7 @@
 ### Can be a digital signature
 - Authentication, non-repudiation, and integrity
 # A Hash Example
-![](Pasted%20image%2020240521140040.png)
+![](9d5d7a3112e563389236e722c6714f9d.png)
 # Collision
 ### Hash functions
 - Take an input of any size
@@ -23,12 +23,12 @@
 ### MD5 has a collision problem
 - Found in 1996
 - Don't use MD5 for anything important
-![](Pasted%20image%2020240521140253.png)
+![](99f73616a08e463d88960df0adefacaf.png)
 # Practical Hashing
 ### Verify a downloaded file
 - Hashes may be provided on the download site
 - Compare the downloaded file hash with the posted hash value
-![](Pasted%20image%2020240521140341.png)
+![](f2e1a45e1fd959d2eee4d04375d0fc40.png)
 ### Password Storage
 - Instead of storing the password, store a salted hash
 - Compare hashes during the authentication process
@@ -45,7 +45,7 @@
 # Salting the Hash
 ### Each user gets a different random hash
 - The same password creates a different hash
-![](Pasted%20image%2020240521140743.png)
+![](e35df75358af4db41a2b1b1f1cd18877.png)
 # Digital Signature
 ### Prove the message was not changed
 - Integrity
@@ -59,6 +59,6 @@
 ### Verify with the public key
 - Any change in the message will invalidate the signature
 # Creating a Digital Signature
-![](Pasted%20image%2020240521141013.png)
+![](91caa053a48ef9424d8cc3269635202b.png)
 # Verifying a Digital Signature
-![](Pasted%20image%2020240521141119.png)
+![](9ea3f62c9b089116645beb5e8c2d9cb0.png)

@@ -9,7 +9,7 @@
 ### Availability
 - Systems and networks must be up and running
 
-![](Pasted%20image%2020240508162034.png)
+![](d58671b6df07164699103f450c8c4b53.png)
 
 # Confidentiality
 ### Certain info should only be known by certain people
