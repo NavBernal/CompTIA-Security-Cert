@@ -32,3 +32,35 @@
 ### Some image formats can be a threat
 - The SVG (Scalable Vector Graphic) format
 - Image is described in XML (Extensible Markup Language)
+### Significant security concerns
+- HTML injection
+- JavaScript attack code
+### Browsers must provide input validation
+- Avoids running malicious code
+### Example of Potential XML XSS Attack Vector
+![](attachments/Pasted%20image%2020240530145005.png)
+# File-Based Vectors
+### More than just executables
+- Malicious code can hide in many places
+### Adobe PDF
+- A file format containing other objects
+### ZIP/RAR files (or any compression type)
+- Contains many different files
+### Microsoft Office
+- Documents with macros
+- Add-in files
+# Voice Call Vectors
+### Vishing
+- Phishing over the phone
+### Spam over IP
+- Large-scale phone calls
+- Attackers use VOIP (Voice Over IP) to send automated spam calls
+### War Dialing
+- Attackers trying to find unpublished phone numbers that may give them access to systems
+- It still happens
+### Call Tampering
+- Disrupt voice calls
+- Attacker is trying to disrupt the systems using a DoS attack
+# Removable Device Vectors
+- Get around the firewall
+- 
