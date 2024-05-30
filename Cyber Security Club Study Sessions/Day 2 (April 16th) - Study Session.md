@@ -12,9 +12,9 @@ y## Exam Objective 1.2
 - Where are you coming from and where are you going?
 	- Trusted/untrusted
 	- Internal/external network
-![](attachments/Pasted%20image%2020240416193058.png)
+![](Pasted%20image%2020240416193058.png)
 ### Deception & Disruption
-![](attachments/Pasted%20image%2020240416193347.png)
+![](Pasted%20image%2020240416193347.png)
 #### Honeypots
 - Attract the bad guys and trap them there
 - The attacker is probably a machine

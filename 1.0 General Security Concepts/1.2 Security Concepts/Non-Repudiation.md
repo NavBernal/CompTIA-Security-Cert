@@ -19,7 +19,7 @@
 ### Doesn't necessarily associate data with an individual
 - Only tells you if the data has changed
 
-![](attachments/Pasted%20image%2020240508214840.png)
+![](Pasted%20image%2020240508214840.png)
 
 # Proof of Origin
 ### Prove the message wasn't changed
@@ -34,6 +34,6 @@
 ### Verify with the public key
 - Any change to the message will invalidate the signature
 # Creating a Digital Signature
-![](attachments/Pasted%20image%2020240508215221.png)
+![](Pasted%20image%2020240508215221.png)
 # Verifying a Digital Signature
-![](attachments/Pasted%20image%2020240508215327.png)
+![](Pasted%20image%2020240508215327.png)

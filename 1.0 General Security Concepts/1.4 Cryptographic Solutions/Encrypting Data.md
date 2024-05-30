@@ -16,11 +16,11 @@
 - Use separate symmetric keys for each column
 # Employee Table Example
 ### Before Encryption:
-![](attachments/Pasted%20image%2020240521120814.png)
+![](Pasted%20image%2020240521120814.png)
 ### Transparent Encryption:
-![](attachments/Pasted%20image%2020240521120910.png)
+![](Pasted%20image%2020240521120910.png)
 ### Column-Level Encryption
-![](attachments/Pasted%20image%2020240521120957.png)
+![](Pasted%20image%2020240521120957.png)
 # Transport Encryption
 ### Protect data traversing the network
 - You're probably doing this now
@@ -38,7 +38,7 @@
 ### There are advantages and disadvantages between algorithms
 - Security level, speed, complexity of implementation, etc.
 # Encryption Algorithm Comparison
-![](attachments/Pasted%20image%2020240521121401.png)
+![](Pasted%20image%2020240521121401.png)
 # Cryptographic Keys
 ### There's very little that isn't known about the cryptographic process
 - The algorithm is usually a known entity

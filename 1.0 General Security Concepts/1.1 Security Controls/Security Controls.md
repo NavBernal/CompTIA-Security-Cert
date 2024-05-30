@@ -72,7 +72,7 @@
 	- Train users on proper security policy
 	- Post a sign for "Authorized Personnel Only"
 
-![](attachments/Pasted%20image%2020240508140112.png)
+![](Pasted%20image%2020240508140112.png)
 
 ## Managing Security Controls
 - **These are not inclusive lists**

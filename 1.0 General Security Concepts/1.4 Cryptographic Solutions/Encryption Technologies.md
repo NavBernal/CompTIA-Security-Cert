@@ -33,7 +33,7 @@
 - Rotate keys on regular intervals
 - Log key use and important events
 # Key Management Software Example
-![](attachments/Pasted%20image%2020240521133203.png)
+![](Pasted%20image%2020240521133203.png)
 # Keeping Data Private
 ### Our data is located in many different places
 - Mobile phones, cloud, laptops, etc.

@@ -21,7 +21,7 @@
 - Embed the message in the image itself
 ### Invisible watermarks
 - Yellow dots on printers
-![](attachments/Pasted%20image%2020240521134814.png)
+![](Pasted%20image%2020240521134814.png)
 # Other Steganography Types
 ### Audio Steganography
 - Modify the digital audio file
@@ -40,7 +40,7 @@
 - An attacker capturing the card numbers can't use them later
 ### This isn't encryption or hashing
 - The original data and token aren't mathematically related
-![](attachments/Pasted%20image%2020240521135333.png)
+![](Pasted%20image%2020240521135333.png)
 # Data Masking
 ### Data Obfuscation
 - Hide some of the original data
@@ -51,4 +51,4 @@
 - Control the view based on permissions
 ### Many different techniques
 - Substituting, shuffling, encrypting, masking out, etc.
-![](attachments/Pasted%20image%2020240521135520.png)
+![](Pasted%20image%2020240521135520.png)
