@@ -25,7 +25,7 @@
 - Invoice scams
 - Cryptocurrency scams
 ### Example Phishing Message
-![](attachments/Pasted%20image%2020240530144528.png)
+![](attachments/350bb1831704e8e4fef73c7c28034e96.png)
 # Image-based vectors
 ### Easy to identify a text-based threat
 - It's more difficult to identify the threat in an image
@@ -38,7 +38,7 @@
 ### Browsers must provide input validation
 - Avoids running malicious code
 ### Example of Potential XML XSS Attack Vector
-![](attachments/Pasted%20image%2020240530145005.png)
+![](attachments/7381f90adedae85c36c3b63e24b6c93a.png)
 # File-Based Vectors
 ### More than just executables
 - Malicious code can hide in many places
