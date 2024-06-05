@@ -57,3 +57,8 @@
 ![](e2b382b4d3fc962d7fce67f9044fcfb2.png)
 - Instead of manually mapping every single user to the individual authorizations they need, we just simply add all of the users to the shipping and receiving group
 - With this one addition, we can give a large number of users access to the resources they might need, regardless of how many users there are and regardless of how many resources they need to access
+# Solutions Providing AAA Functionality
+- **RADIUS (Remote Authentication Dial-In User Service):** Commonly used for network access, it combines authentication and authorization and supports accounting features
+- **TACACS+ (Terminal Access Controller Access-Control System Plus):** Separates authentication, authorization, and accounting, providing more granular control, often used in network environments
+- **Kerberos:** A ticket-based system used in many enterprise environments, especially for Single Sign-On (SSO) in Windows domains
+- **LDAP (Lightweight Directory Access Protocol):** Used for accessing and maintaining distributed directory information services, such as Microsoft's Active Directory

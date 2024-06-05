@@ -71,6 +71,9 @@
 	- Create compliance policies and procedures
 	- Train users on proper security policy
 	- Post a sign for "Authorized Personnel Only"
+- Examples:
+	- **IRP (Incident Response Plan)**
+	- **AUP (Acceptable Use Policy)**
 
 ![](591851929d07bf559a31277888a160dd.png)
 
