@@ -7,13 +7,13 @@
 ### Usually there's something not quite right
 - Spelling, fonts, graphics
 ### Example:
-![](attachments/Pasted%20image%2020240607221122.png)
+![](attachments/4c0e906399b7e277e6c76a625d40eb29.png)
 - Notice the spacing issues as well as the fonts
 - This link was received from the following **phishing email**:
-![](attachments/Pasted%20image%2020240607221220.png)
+![](attachments/ce5acd3034f80a6c52d7984be6efeddc.png)
 - Notice that the sender is associated with an icloud account, as well as the threatening verbiage of the account being blocked if not confirmed soon
 - Below is a copy of what the real Rackspace login page looks like:
-![](attachments/Pasted%20image%2020240607221417.png)
+![](attachments/0ffc32652fd27a60d314a1b0bd96334c.png)
 - While it's definitely a good enough replica to fool some people, you can clearly tell the differences between both pages
 # Business Email Compromises
 ### We Usually Trust Email Sources
@@ -48,7 +48,7 @@
 - Spoofing is a problem here as well
 - Forwards links or asks for personal information
 ### Example of Smishing:
-![](attachments/Pasted%20image%2020240607222725.png)
+![](attachments/7d8b9719338e2bddc7423ffea4f1d64d.png)
 - The goal is to get you to click on this link and enter your login details in order to steal it for themselves
 ### Variations on a Theme
 - The fake check scam, phone verification code scam, BOSS/CEO scam, advance-fee scam
