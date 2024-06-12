@@ -31,6 +31,6 @@
 - Layered defense
 - Antivirus, Firewall, IDS, etc.
 ### Firewalls and IPS (Intrusion Prevention Service)
-- Stop ethe network traffic before things get bad
+- Stop the network traffic before things get bad
 ### Anti-Virus/Anti-Malware Signature Updates
 - The Polish Financial Supervision Authority attack code was recognized and stopped by generic signatures in Symantec's anti-virus software
