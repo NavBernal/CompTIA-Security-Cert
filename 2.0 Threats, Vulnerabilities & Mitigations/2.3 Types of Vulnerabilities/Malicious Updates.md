@@ -24,3 +24,14 @@
 - This means that we'll get a message during the update process that tells us that this application is from Microsoft, Adobe, Google, etc. and we can see the digital signature associated with that update
 - Because the digital signature is put there by the application developer and our OS validates that signature, we can have a high level of trust that this particular update is legitimate
 - Don't disable your security controls if you wish to have your OS validate these signatures
+# Automatic Updates
+### The app updates itself
+- Often includes security checks/digital signatures
+### Relatively trustworthy
+- Comes directly from the developer
+- However, this can still be exploited
+### SolarWinds Orion supply chain attack
+- Reported in December 2020
+- Attackers gained access to the SolarWinds development system
+- Added their own malicious code to the updates
+- Gained access to hundreds of governemnt agencies and companies
