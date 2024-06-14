@@ -34,4 +34,4 @@
 - Reported in December 2020
 - Attackers gained access to the SolarWinds development system
 - Added their own malicious code to the updates
-- Gained access to hundreds of governemnt agencies and companies
+- Gained access to hundreds of government agencies and companies
