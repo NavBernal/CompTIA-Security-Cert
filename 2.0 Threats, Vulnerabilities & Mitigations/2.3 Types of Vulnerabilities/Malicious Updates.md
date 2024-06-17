@@ -8,7 +8,7 @@
 - Install from trusted sources
 - A lot of times, a backup can save your system from an update gone wrong
 # Application Update Example
-![](attachments/Pasted%20image%2020240613164444.png)
+![](attachments/b8eb7194681b43c2a96348165cc94975.png)
 - If this update screen is the first thing to pop up when opening up Chrome, there's a reasonable amount of trust that you can associate with this update
 - However, if this same screen were to pop up after visiting a link provided from Google, then there may be a question as to whether or not what you're downloading is a safe/legit update
 - It may be something you want to perform a bit of extra checks before clicking that **Update Chrome** button
