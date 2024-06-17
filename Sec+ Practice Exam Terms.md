@@ -148,3 +148,8 @@ Answer all of my questions in this format until I say otherwise. Can you do that
 - A now largely obsolete communication protocol for securing web browsing and data transfer over the internet
 - It was developed as an alternative to **HTTPS (Hypertext Transfer Protocol Secure)** for securing web transactions
 - However, unlike HTTPS, which operates at the transport layer, SHTTP operates at the application layer, allowing for more granular security control over individual transactions
+
+**==ASLR (Address Space Layout Randomization)**
+- A security technique used to protect systems from buffer overflow attacks by randomizing the memory addresses used by system and application processes
+- By making it more difficult for an attacker to predict the location of specific functions or memory addresses, ASLR helps mitigate certain types of exploits
+- It's an important component of a **defense-in-depth** strategy and is also part of knowing the best practices for securing systems and applications
