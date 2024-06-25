@@ -30,7 +30,7 @@
 - SSH, SFTP, IMAPS, etc.
 # Defcon Wall of Sheep
 ![](attachments/240f571a1a4deb5d442b8556aa08f0ec.png)
-- Defcon displays this for everyone to see whenever someone is accessing any services on their network using an unencrypted protocl
+- Defcon displays this for everyone to see whenever someone is accessing any services on their network using an unencrypted protocol
 # Default Settings
 ### Every application and network device has a default login
 - Not all of these are ever changed
