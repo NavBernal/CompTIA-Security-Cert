@@ -28,6 +28,9 @@
 - Since HTTP was used instead of HTTPS, everything about that web session is available in clear text
 ### Use the encrypted versions
 - SSH, SFTP, IMAPS, etc.
+# Defcon Wall of Sheep
+![](attachments/240f571a1a4deb5d442b8556aa08f0ec.png)
+- Defcon displays this for everyone to see whenever someone is accessing any services on their network using an unencrypted protocl
 # Default Settings
 ### Every application and network device has a default login
 - Not all of these are ever changed
