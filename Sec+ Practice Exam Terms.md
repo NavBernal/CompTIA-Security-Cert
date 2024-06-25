@@ -152,4 +152,17 @@ Answer all of my questions in this format until I say otherwise. Can you do that
 **==ASLR (Address Space Layout Randomization)**
 - A security technique used to protect systems from buffer overflow attacks by randomizing the memory addresses used by system and application processes
 - By making it more difficult for an attacker to predict the location of specific functions or memory addresses, ASLR helps mitigate certain types of exploits
-- It's an important component of a **defense-in-depth** strategy and is also part of knowing the best practices for securing systems and applications
+- It's an important component of a **defense-in-depth** strategy and is also part of knowing the **best practices** for securing systems and applications
+
+**==CBC (Cipher Block Chaining)**
+- A mode of operation for block ciphers that adds an extra layer of security by chaining together blocks of plaintext to previous ciphertext blocks before encryption
+- Key points for Sec+:
+	- CBC requires an **Initialization Vector (IV)** that is typically the same size as the block size of the cipher
+	- CBC provides confidentiality but is vulnerable to certain attacks if the IV is predictable or if the ciphertext can be modified by an attacker
+	- Since block ciphers operate on fixed-size blocks, CBC may require padding to handle messages that are not multiples of the block size
+	- During decryption, each ciphertext block is decrypted and then XORed (exclusive ORed) with the previous ciphertext block to retrieve the plaintext
+
+**==BPDU (Bridge Protocol Data Unit)**
+- A fundamental concept in networking, particularly in the context of spanning tree protocols (STP) such as IEEE 802.1D and its variants (RSTP, MSTP)
+- It's a data unit used by switches to exchange info about bridge IDs, port IDs, path costs, and other parameters related to the spanning tree protocol
+- The spanning tree protocol prevents loops in Ethernet networks by electing a root bridge and establishing loop-free topology
