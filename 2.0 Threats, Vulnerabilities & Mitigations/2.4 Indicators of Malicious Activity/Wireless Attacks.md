@@ -14,7 +14,7 @@
 ### Original wireless standards didn't add protection for management frames
 - They were sent in clear text with no authentication or validation
 # Example Wireless Management Frame
-![](attachments/Pasted%20image%2020240626155051.png)
+![](attachments/8f84261d52f1d5f91abd9093e115568a.png)
 # Protecting Against Deauth Attacks
 ### IEEE has already addressed this problem
 - Updates included with 802.11ac
