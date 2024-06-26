@@ -47,4 +47,4 @@
 ![](attachments/b8a381bbb3b8989bd4071ffc4b231277.png)
 - This query is sent from all of the botnet devices to these DNS resolvers
 - Because this is amplification, the query that's made is relatively small, but the results form the DNS resolver will be much larger
-- These DNS resolvers will send these responses to the web server IP address that was originally spoofied, effectively overwhelming it and causing the DDoS attack
+- These DNS resolvers will send these responses to the web server IP address that was originally spoofed, effectively overwhelming it and causing the DDoS attack
