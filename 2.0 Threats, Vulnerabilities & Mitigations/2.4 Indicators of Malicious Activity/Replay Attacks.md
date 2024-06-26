@@ -45,4 +45,4 @@
 ### Encrypt end-to-somewhere
 - At least avoid capture over a local wireless network
 - Still in the clear for part of the journey
-- Personal V
+- Personal VPN
