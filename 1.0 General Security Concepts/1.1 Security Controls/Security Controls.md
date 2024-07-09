@@ -75,7 +75,7 @@
 	- **IRP (Incident Response Plan)**
 	- **AUP (Acceptable Use Policy)**
 
-![](591851929d07bf559a31277888a160dd.png)
+![](attachments/591851929d07bf559a31277888a160dd.png)
 
 ## Managing Security Controls
 - **These are not inclusive lists**

@@ -10,7 +10,7 @@
 ### Accounting
 - Resources used: Login time, data sent and received, logout time
 # Authenticating People
-![](cb93eb03c6e6346dddf60a43d71cfcf7.png)
+![](attachments/cb93eb03c6e6346dddf60a43d71cfcf7.png)
 # Authenticating Systems
 ### You have to manage many devices
 - Often devices that you'll never physically see
@@ -42,7 +42,7 @@
 ### Some issues with this method
 - Difficult to understand why an authorization may exist
 - Does not scale
-![](3c985ebafb18fad941144c0feab8d629.png)
+![](attachments/3c985ebafb18fad941144c0feab8d629.png)
 - It would be difficult to take every single user account and manually set up rights and permissions for every single resource that they need access to
 - In this case, there's only three resources, but imagine if there were tens or hundreds of resources
 - You would need to set those up for tens or hundreds of users
@@ -54,7 +54,7 @@
 ### Administration is streamlined
 - Easy to understand the authorizations
 - Support any number of users or resources
-![](e2b382b4d3fc962d7fce67f9044fcfb2.png)
+![](attachments/e2b382b4d3fc962d7fce67f9044fcfb2.png)
 - Instead of manually mapping every single user to the individual authorizations they need, we just simply add all of the users to the shipping and receiving group
 - With this one addition, we can give a large number of users access to the resources they might need, regardless of how many users there are and regardless of how many resources they need to access
 # Solutions Providing AAA Functionality

@@ -21,4 +21,4 @@
 # Symmetric Key from Asymmetric Keys
 ### Use public and private key cryptography to create a symmetric key
 - Math is powerful
-![](07de298a30ae930b95c8aa6dc0dc9e95.png)
+![](attachments/07de298a30ae930b95c8aa6dc0dc9e95.png)

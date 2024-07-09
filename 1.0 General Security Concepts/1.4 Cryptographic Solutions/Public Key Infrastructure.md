@@ -39,7 +39,7 @@
 ### Everyone can have the public key
 - Only Alice has the private key
 # Asymmetric Encryption
- ![](0ca593ece9edb1635df75b348f90f279.png)
+ ![](attachments/0ca593ece9edb1635df75b348f90f279.png)
 # Key Escrow
 ### Someone else holds your decryption keys
 - Your private keys are in the hands of a 3rd-party

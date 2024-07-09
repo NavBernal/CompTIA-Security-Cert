@@ -39,4 +39,4 @@
 - A formal description of the current state
 - Recommendations for meeting the baseline
 # Gap Analysis Overview
-![](d42dee785dd5906c2a9bfb6445a9bae6.png)
+![](attachments/d42dee785dd5906c2a9bfb6445a9bae6.png)

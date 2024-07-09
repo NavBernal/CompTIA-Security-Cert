@@ -19,7 +19,7 @@
 ### Doesn't necessarily associate data with an individual
 - Only tells you if the data has changed
 
-![](279a7a95782fc2c3f2114bbc69f66049.png)
+![](attachments/279a7a95782fc2c3f2114bbc69f66049.png)
 
 # Proof of Origin
 ### Prove the message wasn't changed
@@ -34,6 +34,6 @@
 ### Verify with the public key
 - Any change to the message will invalidate the signature
 # Creating a Digital Signature
-![](1d6ed7ab131d45a46dc5711e93f3ca8d.png)
+![](attachments/1d6ed7ab131d45a46dc5711e93f3ca8d.png)
 # Verifying a Digital Signature
-![](36a8d8901c1411a3e539a826ff8ab282.png)
+![](attachments/36a8d8901c1411a3e539a826ff8ab282.png)
