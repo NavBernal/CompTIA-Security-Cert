@@ -74,3 +74,78 @@
 - It's lightweight, uses the host kernel, and allows for secure separation between applications
 # Virtualized vs Containerized
 ![](attachments/b45302191b6fe692a0cdbf6e164c2e3f.png)
+- As seen in the diagram, both options start at the bottom with hardware that everything is running on AKA the infrastructure
+- This changes a bit as we move up through the stack
+- While a hypervisor is used on top of the infrastructure in a virtualized environment, an actual OS is used in a containerized environment
+- On top of the host OS is the containerization software
+- A popular option for this is Docker which is software that can then manage all of these different apps in their own separate containers
+- This differs from a virtualized environment as our guest OS are running separate entities on each virtual machine
+- There are of course pros and cons to both options, and it's up to the organization to find the solution that works best for their business model
+# IoT (Internet of Things)
+### What is it?
+- Devices designed to be integrated into your network and support some of the features and services that you use on a day to day basis
+### Sensors
+- Heating, cooling, lighting
+### Smart devices
+- Home automation, video doorbells
+### Wearable technology
+- Watches, health monitors
+### Facility automation
+- Temperature, air quality, lighting
+### Convenient, but usually contain weak default settings
+- IoT manufacturers are not security professionals
+- They may be very good at designing a thermostat or doorbell, but may not be good at implementing good security practices
+- We do have to think about how we would implement IoT devices in an environment that is highly secure
+- **It only takes a single IoT device to be exploited for an attacker to have full access inside of your network**
+# SCADA / ICS
+### Supervisory Control and Data Acquisition System
+- Large-scale, multi-site **Industrial Control Systems (ICS)**
+### PC manages equipment
+- Power generation, refining, manufacturing equipment
+- Facilities, industrial, energy, logistics
+### Distributed Control systems
+- Real-time information
+- System control
+- Everything can be handled in the control room, eliminating the need for physical access to all equipment
+### Requires extensive segmentation
+- No access from the outside
+- Serious security issues can arise if someone was to gain access to power generation systems or oil refineries
+- This could have a dramatic impact not just on immediate power needs, but could affect it for a long period of time
+- This is why many SCADA systems are some of the most secure that you'll find in the world
+# RTOS (Real-Time Operating System)
+### An OS with a deterministic processing schedule
+- No time to wait for other processes
+- Industrial equipment, automobiles, military environments
+- One example in vehicles is when needing to come to a complete stop, your entire system will suddenly focus on that breaking system and make sure that you're not able to skid out of control
+### Extremely sensitive to security issues
+- Non-trivial systems
+- Need to always be available
+- These systems tend to be very self-contained, and it can be difficult to know what type of security is in place
+# Embedded Systems
+### Hardware and software designed for a specific function
+- Or to operate as part of a larger system
+### Is built with only this task in mind
+- Can be optimized for size and/or cost
+### Common examples
+- Traffic light controllers
+- Digital watches
+- Medical imaging systems
+# High Availability
+### Redundancy doesn't mean always available
+- May need to be powered on and configured manually in order to become readily available
+### HA (High Availability)
+- Always on, always available
+- There may be an HA configuration for a pair of firewalls that you've installed
+- If one of those firewalls was to stop working, it would fail over to the other highly available firewall
+### May include many different components working together
+- Active/Active can provide scalability advantages
+- In the last example with the firewalls, we had a primary firewall and we failed over to a backup that was simply waiting for that primary to fail
+- Some firewalls can be configured so that both of those systems are active all the time
+- If one of those firewalls was to fail, the other would continue to work normally, and all of the traffic would continue to flow without anyone knowing there was a failure
+### Higher availability almost always means higher costs
+- There's always another contingency you could add
+- Upgraded power, high-quality server components, etc.
+- Continuing with the firewall example, we needed two separate firewalls to provide that HA capability
+- But if we have two separate firewalls, maybe we would also need two separate network infrastructures
+- If we have that, we might also need two separate power systems
+- You can continue to add on these systems and plan out for additional HA, but doing so will result in more associated costs
