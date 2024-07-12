@@ -25,7 +25,7 @@
 - Data can be blocked in real-time as it passes by
 - Intrusion prevention is commonly active
 - An example can be seen below:
-![](attachments/Pasted%20image%2020240711211230.png)
+![](attachments/ec27f7d6e7142b2731f917b4903e45a8.png)
 - In this case, the IPS is put inline doing active monitoring
 - As traffice traverses this link between the core switch and the firewall, the IPS is examining all of the traffic
 - It makes a decision on whether the traffic is legitimate or potentially maliscious
@@ -34,7 +34,7 @@
 - There may, however, be a concern that an outage would cause downtime for the rest of the network
 - Or they might be concerned that it's blocking traffic too aggressively and preventing legit traffic from coming through
 - In that case, the org may feel more comfortable with a passive monitoring solution
-![](attachments/Pasted%20image%2020240711211817.png)
+![](attachments/95292b9f3f05a1edb6c60be888f0f2a2.png)
 # Passive Monitoring
 - Devices can communicate to each other normally through a switch, and the switch is taking a copy of that traffic and sending it to the IPS
 - A copy of the network traffic is examined using a tap or port monitor
@@ -49,6 +49,7 @@
 - Dropped at the IPS
 - Does not proceed through the network
 # Passive Monitoring
+![](attachments/b4019dbc308a7f8a261c60545001446a.png)
 ### Examine a copy of the traffic
 - Port mirror or SPAN (Switch Port Analyzer)
 - Network tap to break into a connection
