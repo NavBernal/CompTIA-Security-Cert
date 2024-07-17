@@ -67,6 +67,7 @@
 - Server outages have no effect
 - Very fast convergence, most users don't realize that a change has been made to the load balancer
 # Active/Active Load Balancing
+![](attachments/f45884a8a08c271d3b0e676ca97e17ed.png)
 ### Configurable load
 - Manage across servers
 - All of the servers connected to the load balancer are active and are being used by the load balancer
@@ -74,3 +75,32 @@
 ### TCP Offload
 - Protocol overhead
 - This means that it doesn't have to setup an individual TCP communication session for every user connecting to the servers
+- It'll instead keep one single TCP connection open all the time and simply distribute the load without having to recreate separate TCP sessions each time
+### SSL Offload
+- Encryption/Decryption
+- Instead of having the servers manage the decryption individually, all the decryption can be done on the load balancer, which then sends in the clear or decrypted traffic down to the servers
+- On the way back, the load balancer will encrypt the response and send that back to the user
+- There's usually purpose-built hardware built inside of the load balancer to provide efficient encryption and decryption processes
+### Caching
+- Fast response
+- Just like a proxy, can also provide caching especially if there are identical requests made to the web servers
+### Prioritization
+- QoS
+- Certain applications or protocols may have a higher priority than others
+### Content switching
+- Application-centric balancing
+- They recognize the type of requests being made and can send certain requests to specific web servers that are connected to the load balancer
+# Active/Passing Load Balancing
+![](attachments/0ab63b663c5281180078195c62b9a76e.png)
+### Some servers are active
+- Others are on standby
+### If an active server fails, the passive server takes its place
+# Sensors and Collectors
+### Aggregate information from network devices
+- Built-in sensors, separate devices
+- Integrated into switches, routers, servers, firewalls, etc.
+### Sensors
+- Intrusion prevention systems, firewall logs, authentication logs, web server access logs, database transaction logs, email logs
+### Collectors
+- Proprietary consoles (IPS, firewall), SIEM (Security Information & Event Management) consoles, syslogs servers
+- Many SIEMs include a correlation engine to compare diverse sensor data
