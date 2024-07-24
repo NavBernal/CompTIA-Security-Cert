@@ -1,3 +1,4 @@
+# High Availability
 ### Redundancy doesn't always mean always available
 - May need to be powered on manually
 ### HA (High Availability)
