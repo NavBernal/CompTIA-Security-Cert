@@ -1,7 +1,7 @@
 # Audits & Assessments
 ### Not just for taxes
 - There are good reasons to audit your technology
-### Cybersecyruty audit
+### Cybersecurity audit
 - Examines the IT infrastructure, software, devices, etc.
 - Checks for effectiveness of policies and procedures
 - Find vulnerabilities before the attackers
