@@ -109,7 +109,7 @@
 ### Many different ways to communicate with an authentication server
 - More than a simple login process
 ### Often determined by what is at hand
-- VPN concentrator can talk to a LDAP server
+- VPN concentrator can talk to an LDAP server
 - Your org may already have one
 ### A new app uses OAuth
 - Need to allow authentication API access
