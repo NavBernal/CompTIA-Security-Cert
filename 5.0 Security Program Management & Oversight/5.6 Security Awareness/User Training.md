@@ -13,7 +13,7 @@
 - Provide access online in policy guidelines
 - Reference the policies in the employee handbook
 ### Situational awareness
-- Users should always relooking for threats
+- Users should always be looking for threats
 - Software attacks: Email links, attachment, unusual URLs, text messages, etc.
 - Physical attacks: USB drives in a FedEx envelope, unlocked building doors, etc.
 - Be ready for anything
